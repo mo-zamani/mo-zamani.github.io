@@ -1,0 +1,410 @@
+/*
+* Layout CSS for Mohammad Zamani's personal website
+* This file contains layout styles for all sections
+*/
+
+/* Global Layout Styles */
+.row { width: 96%; max-width: 1020px; margin: 0 auto; }
+.column, .columns { position: relative; padding: 0 20px; float: left; }
+
+.row .three.columns { width: 25%; }
+.row .nine.columns { width: 75%; }
+
+/* Clearing floated elements */
+.row:before,
+.row:after {
+  content: '';
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+/* Header Styles */
+header {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Navigation */
+#nav-wrap {
+  font: 12px 'Montserrat', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+#nav-wrap > a {
+  display: none;
+}
+
+ul#nav {
+  min-height: 48px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+}
+
+ul#nav li a {
+  display: inline-block;
+  padding: 16px 13px;
+  line-height: 16px;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #11ABB0; }
+ul#nav li a:hover { color: #11ABB0; }
+
+/* Banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 85%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.banner-text {
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.banner-text h1 {
+  font: 90px/1.1em 'Montserrat', sans-serif;
+  color: #fff;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.banner-text h3 {
+  font: 18px/1.9em 'Open Sans', sans-serif;
+  color: #ddd;
+  margin: 0 auto;
+  width: 70%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.banner-text h3 span {
+  color: #11ABB0;
+  font-weight: 600;
+}
+
+.banner-text hr {
+  width: 60%;
+  margin: 18px auto 24px auto;
+  border-color: #11ABB0;
+  border-color: rgba(17, 171, 176, .3);
+}
+
+/* Social Links */
+.social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  animation: fadeInUp 1.4s ease-in-out;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social li a {
+  color: #fff;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+}
+
+.social li a:hover {
+  color: #11ABB0;
+  transform: scale(1.2);
+}
+
+/* Scroll Down Icon */
+.scrolldown {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -29px;
+  color: #fff;
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  border-radius: 100%;
+  animation: bounce 2s infinite;
+}
+
+.scrolldown a {
+  color: #fff;
+}
+
+.scrolldown a:hover { color: #11ABB0; }
+
+/* About Section */
+#about {
+  background: #2B2B2B;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+  position: relative;
+}
+
+#about a, #about a:visited { color: #fff; }
+#about a:hover, #about a:focus { color: #11ABB0; }
+
+#about h2 {
+  font: 22px/30px 'Montserrat', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+#about h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background: #11ABB0;
+}
+
+#about p {
+  line-height: 30px;
+  color: #7A7A7A;
+}
+
+.profile-pic {
+  position: relative;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #11ABB0;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+  border-color: #fff;
+}
+
+/* Section Common Styles */
+section {
+  padding: 90px 0;
+  position: relative;
+  background: #1F1F1F;
+  overflow: hidden;
+}
+
+section:nth-of-type(even) {
+  background: #2B2B2B;
+}
+
+section h1 {
+  font: 30px/36px 'Montserrat', sans-serif;
+  margin-bottom: 40px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+section h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  width: 60px;
+  height: 3px;
+  background: #11ABB0;
+  transform: translateX(-50%);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 1024px) {
+  .banner-text h1 {
+    font: 80px/1.1em 'Montserrat', sans-serif;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .banner-text h1 {
+    font: 70px/1.1em 'Montserrat', sans-serif;
+  }
+  .banner-text h3 {
+    font: 16px/1.7em 'Open Sans', sans-serif;
+    width: 80%;
+  }
+  .row .three.columns,
+  .row .nine.columns {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .profile-pic {
+    margin: 0 auto 30px;
+    display: block;
+  }
+  #about h2::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    min-height: 400px;
+  }
+  .banner-text h1 {
+    font: 50px/1.1em 'Montserrat', sans-serif;
+  }
+  .banner-text h3 {
+    width: 90%;
+  }
+  
+  #nav-wrap {
+    font: 11px 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+  }
+  
+  #nav-wrap > a {
+    width: 48px;
+    height: 48px;
+    text-align: left;
+    background-color: #11ABB0;
+    position: relative;
+    border: none;
+    float: right;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    display: block;
+  }
+  
+  #nav-wrap > a:before,
+  #nav-wrap > a:after {
+    position: absolute;
+    border: 2px solid #fff;
+    top: 35%;
+    left: 25%;
+    right: 25%;
+    content: '';
+  }
+  #nav-wrap > a:after { top: 60%; }
+  
+  ul#nav {
+    height: auto;
+    display: none;
+    clear: both;
+    width: 100%;
+    float: none;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.9);
+    position: relative;
+    top: 0;
+    flex-direction: column;
+  }
+  
+  ul#nav li {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  
+  ul#nav li a {
+    display: block;
+    padding: 15px 0;
+    line-height: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .banner-text h1 {
+    font: 40px/1.1em 'Montserrat', sans-serif;
+  }
+  .banner-text h3 {
+    font: 14px/1.7em 'Open Sans', sans-serif;
+    width: 100%;
+  }
+  .social {
+    font-size: 20px;
+    gap: 10px;
+  }
+}
