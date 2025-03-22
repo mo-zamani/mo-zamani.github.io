@@ -1,286 +1,343 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
-
-	<!--- Basic Page Needs
-	================================================== -->
-	<meta charset="utf-8">
-	<title>Mohammad Zamani | محمد زمانی</title>
-	<meta name="description" content="Mohammad Zamani Website">
-	<meta name="author" content="Mohammad Zamani">
-
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-	================================================== -->
-	<link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
-	<link rel="stylesheet" href="css/media-queries.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/custom.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-	<!-- Script
-	================================================== -->
-	<script src="js/modernizr.js"></script>
-
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
+    <meta charset="utf-8">
+    <title>Mohammad Zamani | محمد زمانی</title>
+    <meta name="description" content="Mohammad Zamani - Research Fellow in Computational Mechanics, AI, and Biomedical Modeling">
+    <meta name="author" content="Mohammad Zamani">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Script -->
+    <script src="js/main.js" defer></script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png">
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">
+                    <span class="logo-text">MZ</span>
+                </a>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#works">Research</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	     <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	        <li><a class="smoothscroll" href="#education">Education</a></li>
-			<li><a class="smoothscroll" href="#works">Works</a></li>
-			<li><a class="smoothscroll" href="#projects">Projects</a></li>
-			<li><a class="smoothscroll" href="#publications">Publications</a></li>
-			<li><a class="smoothscroll" href="#skills">Skills</a></li>
-			<li><a class="smoothscroll" href="#about">Contact</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-			<h3><span>My name is</span></h3>
-            <h1 class="responsive-headline">Mohammad Zamani</h1>
-            <h3>I am a Researcher and Developer in Computational Mechanics, Artificial Intelligence, and Biomedical Modeling, focusing on Finite Element Analysis, Topology Optimization, and Reinforcement Learning in Engineering. I am passionate about AI-driven solutions for structural and biomedical challenges and have a deep interest in computational design and intelligent systems.
-			Feel free to <a class="smoothscroll" href="#about">scroll down</a> to know more <a class="smoothscroll" href="#about">about me</a>.</h3>
-            <hr />
-            <ul class="social">
-                <li><a href="https://github.com/maxzamani" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/mohammad-zamani-087925189/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
-		<li><a href="https://scholar.google.com/citations?user=2nRWu88AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fab fa-google"></i></a></li>
-		<li><a href="mailto:mail.zamani.m@gmail.com"><i class="fas fa-envelope"></i></a></li>
-            </ul>
-         </div>
-      </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="fas fa-chevron-down"></i></a>
-      </p>
-
-   </header> <!-- Header End -->
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic" loading="auto" src="images/profilepic.jpg" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h2>About Me</h2>
-
-            <p>I am a Research Fellow at the <a href="http://chpc.ut.ac.ir" target="_blank" rel="noopener noreferrer">High Performance Computing Lab</a>, <a href="http://civeng.ut.ac.ir" target="_blank" rel="noopener noreferrer">School of Civil Engineering</a>, <a href="http://ut.ac.ir" target="_blank" rel="noopener noreferrer">University of Tehran</a>, under the supervision of <a href="https://chpc.ut.ac.ir/smohammadi" target="_blank" rel="noopener noreferrer">Professor Soheil Mohammadi</a>.  
-               I earned my M.Sc. in Structural Engineering from the same institution, also under his supervision.  
-               I have served as a mentor and project TA at the <a href="https://Chpc.ut.ac.ir/" target="_blank" rel="noopener noreferrer">CHPC Lab</a>.  
-               My research focuses on AI-driven engineering solutions, computational modeling, optimization algorithms, and intelligent design systems.</p>             
-
-            <div class="row">
-
-               <div class="columns contact-details">
-
-                  <h2> Contact info</h2>
-                  <p class="address">
-			  <span>Mohammad Zamani</span><br>
-			  <span><a href="http://chpc.ut.ac.ir" target="_blank" rel="noopener noreferrer">CHPC Lab</a>,<br>
-				  <a href="http://www.ut.ac.ir/" target="_blank" rel="noopener noreferrer">University of Tehran</a>, Tehran, Iran.</span><br>
-			  <span>eMail : <a href="mailto:mail.zamani.m@gmail.com"> mail.zamani.m@gmail.com </a></span></p>
-
-               </div>
-
-               <div class="columns download">
-                  <p>
-                     <a href="https://drive.google.com/file/d/1QPrZ_y0eYGE48SKffOHR7PodPnrQBMlV/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button"><i class="fas fa-download"></i>Resume (CV)</a>
-                  </p>
-               </div>
-
-            </div> <!-- end row -->
-
-         </div> <!-- end .main-col -->
-
-      </div>
-
-   </section> <!-- About Section End-->
-
-
-   <section id="resume">
-
-      <!-- Education & Research -->
-      <div id="education" class="row education"><br><br>
-         <div class="three columns header-col">
-            <h1><span>Education & Research</span></h1>
-         </div>
-   
-         <div class="nine columns main-col">
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3><a href="https://ut.ac.ir/en" target="_blank">University of Tehran</a></h3>
-                  <p class="info">M.Sc. in Structural Engineering<span>&bull;</span> <em class="date">2019 - 2022</em></p>
-                  <p>Thesis: Mathematical Modeling of Bone Fracture Healing</p>
-               </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="glitch" data-text="Mohammad Zamani">Mohammad Zamani</h1>
+                    <p class="hero-subtitle">Research Fellow in Computational Mechanics, AI, and Biomedical Modeling</p>
+                    <div class="hero-description">
+                        <p>I am passionate about AI-driven solutions for structural and biomedical challenges, with expertise in Finite Element Analysis, Topology Optimization, and Reinforcement Learning in Engineering.</p>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#about" class="btn btn-primary">Learn More</a>
+                        <a href="https://drive.google.com/file/d/1QPrZ_y0eYGE48SKffOHR7PodPnrQBMlV/view?usp=sharing" class="btn btn-secondary" target="_blank">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/maxzamani" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohammad-zamani-087925189/" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=2nRWu88AAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="mailto:mail.zamani.m@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="images/formalpic.jpg" alt="Mohammad Zamani" class="profile-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
             </div>
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>Graduate Research Assistant, HPC Lab</h3>
-                  <p class="info">University of Tehran<span>&bull;</span> <em class="date">2021 - Present</em></p>
-                  <ul>
-                     <li>Developed finite element models for bone fracture healing.</li>
-                     <li>Applied machine learning to engineering datasets.</li>
-                     <li>Researched topology optimization and AI-driven structural design.</li>
-                  </ul>
-               </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-line"></div>
             </div>
-         </div>
-      </div>
-   
-      <!-- Work Experience -->
-      <div id="works" class="row work"><br><br>
-         <div class="three columns header-col">
-            <h1><span>Work Experience</span></h1>
-         </div>
-   
-         <div class="nine columns main-col">
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>Teaching Assistant</h3>
-                  <p class="info">University of Tehran & Shahid Beheshti University</p>
-                  <ul>
-                     <li>Engineering Mathematics (2022 - 2024)</li>
-                     <li>Finite Element Methods (2023 - 2024)</li>
-                     <li>Mechanics of Materials II (2021 - 2022)</li>
-                  </ul>
-               </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a Research Fellow at the <a href="http://chpc.ut.ac.ir" target="_blank" rel="noopener noreferrer">High Performance Computing Lab</a>, <a href="http://civeng.ut.ac.ir" target="_blank" rel="noopener noreferrer">School of Civil Engineering</a>, <a href="http://ut.ac.ir" target="_blank" rel="noopener noreferrer">University of Tehran</a>, under the supervision of <a href="https://chpc.ut.ac.ir/smohammadi" target="_blank" rel="noopener noreferrer">Professor Soheil Mohammadi</a>.</p>
+                    <p>My research focuses on AI-driven engineering solutions, computational modeling, optimization algorithms, and intelligent design systems.</p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>CHPC Lab, University of Tehran, Tehran, Iran</p>
+                    </div>
+                    <div class="detail-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:mail.zamani.m@gmail.com">mail.zamani.m@gmail.com</a></p>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   
-      <!-- Projects -->
-      <div id="projects" class="row projects"><br><br>
-         <div class="three columns header-col">
-            <h1><span>Projects</span></h1>
-         </div>
-         <div class="nine columns main-col">
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>Finite Element Solution of Bone Fracture Healing</h3>
-                  <p class="info">University of Tehran</p>
-               </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="section-line"></div>
             </div>
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>AI-Powered Structural Topology Optimization</h3>
-                  <p class="info">HPC Lab</p>
-               </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>University of Tehran</h3>
+                        <p class="timeline-date">2019 - 2022</p>
+                        <p class="timeline-title">M.Sc. in Structural Engineering</p>
+                        <p class="timeline-description">School of Civil Engineering</p>
+                        <p class="timeline-thesis"><em>Thesis: Mathematical Modeling of Bone Fracture Healing</em></p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Hekmat University</h3>
+                        <p class="timeline-date">2014 - 2017</p>
+                        <p class="timeline-title">B.Sc. in Civil Engineering</p>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-   
-      <!-- Publications -->
-      <div id="publications" class="row publication"><br><br>
-         <div class="three columns header-col">
-            <h1><span>Publications</span></h1>
-         </div>
-         <div class="nine columns main-col">
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>Finite Element Solution of Coupled Multiphysics Reaction-Diffusion Equations for Fracture Healing</h3>
-                  <p class="info">Published in <em>Computers in Biology and Medicine, 2024</em></p>
-               </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="works" class="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research Experience</h2>
+                <div class="section-line"></div>
             </div>
-            <div class="row item">
-               <div class="twelve columns">
-                  <h3>Biomechanics of Hard Tissues (Parts 6.1 & 6.4)</h3>
-                  <p class="info">Book Chapter in <em>Multiscale Biomechanics</em>, Wiley (2023)</p>
-               </div>
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-header">
+                        <h3>Graduate Research Assistant</h3>
+                        <span class="research-date">2021 - Present</span>
+                    </div>
+                    <p class="research-location">HPC Lab, University of Tehran</p>
+                    <ul class="research-list">
+                        <li>Developed a novel mathematical framework for bone fracture healing simulation</li>
+                        <li>Led comparative analysis of machine learning methods for engineering datasets</li>
+                        <li>Enhanced multi-scale asymptotic homogenization methods</li>
+                        <li>Designed topology optimization algorithms for aerospace applications</li>
+                        <li>Pioneered reinforcement learning in structural topology optimization</li>
+                    </ul>
+                </div>
+                <div class="research-card">
+                    <div class="research-header">
+                        <h3>Graduate Research Projects</h3>
+                        <span class="research-date">2019 - 2022</span>
+                    </div>
+                    <p class="research-location">University of Tehran</p>
+                    <ul class="research-list">
+                        <li>Advanced FEM & Meshless Methods implementation</li>
+                        <li>Multi-scale Computing applications</li>
+                        <li>AI Applications in structural optimization</li>
+                        <li>Optimization techniques development</li>
+                        <li>Composite Materials analysis</li>
+                    </ul>
+                </div>
             </div>
-         </div>
-      </div>
-   
-      <!-- Skills -->
-      <div id="skills" class="row skill"><br><br>
-         <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-         <div class="nine columns main-col">
-            <div class="bars">
-               <ul class="skills">
-                  <li><span class="bar-expand programming"></span><em>Programming (Python, MATLAB, etc.) (90%)</em></li>
-                  <li><span class="bar-expand ai"></span><em>Machine Learning, Reinforcement Learning (90%)</em></li>
-                  <li><span class="bar-expand software"></span><em>Finite Element Analysis, Abaqus (90%)</em></li>
-                  <li><span class="bar-expand framework"></span><em>Optimization, Topology Optimization (90%)</em></li>
-               </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Expertise</h2>
+                <div class="section-line"></div>
             </div>
-         </div>
-      </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MATLAB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>ML & AI</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">PyTorch</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Engineering Software</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Abaqus (FEA)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Mathematica</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Publications</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <h3>Journal Papers</h3>
+                        <span class="publication-date">2024</span>
+                    </div>
+                    <p class="publication-journal">Computers in Biology and Medicine</p>
+                    <p class="publication-title">"Finite Element Solution of Coupled Multiphysics Reaction-Diffusion Equations for Fracture Healing in Hard Biological Tissues"</p>
+                </div>
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <h3>Under Review</h3>
+                        <span class="publication-date">2025</span>
+                    </div>
+                    <p class="publication-title">"The Impact of Data Splitting Methods on Machine Learning Models: A Case Study in Predicting the Concrete Workability"</p>
+                </div>
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <h3>Book Chapter</h3>
+                        <span class="publication-date">2023</span>
+                    </div>
+                    <p class="publication-journal">Multiscale Biomechanics, Wiley</p>
+                    <p class="publication-title">"Biomechanics of Hard Tissues (Parts 6.1 & 6.4)"</p>
+                    <p class="publication-note">Contributed to the preparation of approximately 28 pages covering theoretical and computational aspects</p>
+                </div>
+                <div class="publication-card">
+                    <div class="publication-header">
+                        <h3>Conference Papers</h3>
+                        <span class="publication-date">2025</span>
+                    </div>
+                    <p class="publication-journal">ISME</p>
+                    <ul class="publication-list">
+                        <li>"3D Multiscale Topology Optimization for Conceptual Design of a Quadrotor Aerial Taxi"</li>
+                        <li>"Inverse Design of New Mechanical Metamaterial for Base Isolator"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-   <!-- footer
-   ================================================== -->
-   <footer>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:mail.zamani.m@gmail.com">mail.zamani.m@gmail.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>CHPC Lab, University of Tehran, Tehran, Iran</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-link"></i>
+                        <h3>Social</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/maxzamani" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohammad-zamani-087925189/" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=2nRWu88AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social">
-               <li><a href="https://github.com/maxzamani" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/mohammad-zamani-087925189/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
-     <li><a href="https://scholar.google.com/citations?user=2nRWu88AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fab fa-google"></i></a></li>
-            <li><a href="mailto:mail.zamani.m@gmail.com"><i class="fas fa-envelope"></i></a></li>
-           </ul>
-     
-
-            <!--<ul class="copyright">
-               <li>&copy; Copyright 2025 CeeVee and Mohammad Zamani</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
-            </ul>-->
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="fas fa-chevron-up"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Mohammad Zamani. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
