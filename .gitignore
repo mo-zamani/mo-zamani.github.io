@@ -1,11 +1,13 @@
 # Dependencies
 node_modules/
 package-lock.json
-package.json
+yarn.lock
 
 # Build files
 dist/
 build/
+.cache/
+.temp/
 
 # IDE and editor files
 .vscode/
@@ -13,18 +15,34 @@ build/
 *.swp
 *.swo
 .DS_Store
+Thumbs.db
 
 # Logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
 # Environment variables
 .env
 .env.local
 .env.*.local
 
-# Cache
-.cache/
-.temp/ 
+# Testing
+coverage/
+.nyc_output/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup 

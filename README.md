@@ -13,6 +13,7 @@ A modern, interactive portfolio website showcasing my academic and professional 
 - 📝 Research experience timeline
 - 🎓 Education history
 - 📧 Contact form
+- 🔒 Secure and fast hosting on GitHub Pages
 
 ## Technologies Used
 
@@ -21,33 +22,63 @@ A modern, interactive portfolio website showcasing my academic and professional 
 - Vanilla JavaScript (ES6+)
 - Font Awesome Icons
 - Google Fonts
+- Vite (for development)
 
 ## Project Structure
 
 ```
-maxzamani.github.io/
+mo-zamani.github.io/
 ├── index.html          # Main HTML file
 ├── style.css          # Main stylesheet
-├── js/
-│   └── main.js       # JavaScript functionality
-├── fonts/            # Custom fonts
-└── images/           # Image assets
+├── vite.config.js     # Vite configuration
+├── package.json       # Project dependencies
+├── js/                # JavaScript files
+├── css/               # Additional stylesheets
+├── images/            # Image assets
+├── fonts/             # Custom fonts
+└── inc/               # Include files
 ```
 
 ## Setup
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/maxzamani/maxzamani.github.io.git
+git clone https://github.com/mo-zamani/mo-zamani.github.io.git
 ```
 
-2. Open `index.html` in your browser or use a local server.
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start development server:
+```bash
+npm run dev
+```
+
+4. Build for production:
+```bash
+npm run build
+```
 
 ## Development
 
-The website is built using vanilla web technologies for optimal performance and simplicity. No build process is required.
+The website is built using modern web technologies for optimal performance and maintainability. Development is streamlined with Vite for fast hot module replacement and efficient builds.
+
+## Contributing
+
+Feel free to:
+- Fork this repository
+- Create feature branches
+- Submit pull requests
+- Report issues
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+- GitHub: [mo-zamani](https://github.com/mo-zamani)
+- Website: [mo-zamani.github.io](https://mo-zamani.github.io)
  
