@@ -1,43 +1,24 @@
-# Max Zamani's Portfolio Website
+# Mohammad Zamani's Personal Website
 
-A modern, interactive portfolio website showcasing my academic and professional work. Built with HTML5, CSS3, and vanilla JavaScript.
+A modern, responsive personal website showcasing my academic background, research work, and professional experience.
 
 ## Features
 
-- 🎨 Modern and clean design
+- 🎨 Modern and clean design with smooth animations
 - 📱 Fully responsive layout
-- ⚡ Smooth animations and transitions
-- 🔍 Interactive elements
-- 📊 Dynamic skill bars
-- 📚 Publications showcase
-- 📝 Research experience timeline
-- 🎓 Education history
-- 📧 Contact form
-- 🔒 Secure and fast hosting on GitHub Pages
+- 🌙 Glass-morphism effects
+- 🔍 Research and publications showcase
+- 💼 Skills and expertise visualization
+- 📬 Contact section with social links
+- 🎓 Detailed education and research timeline
 
 ## Technologies Used
 
 - HTML5
-- CSS3 (with CSS Variables, Flexbox, and Grid)
-- Vanilla JavaScript (ES6+)
+- CSS3 (Modern features like CSS Grid, Flexbox, and CSS Variables)
+- JavaScript (Vanilla)
 - Font Awesome Icons
 - Google Fonts
-- Vite (for development)
-
-## Project Structure
-
-```
-mo-zamani.github.io/
-├── index.html          # Main HTML file
-├── style.css          # Main stylesheet
-├── vite.config.js     # Vite configuration
-├── package.json       # Project dependencies
-├── js/                # JavaScript files
-├── css/               # Additional stylesheets
-├── images/            # Image assets
-├── fonts/             # Custom fonts
-└── inc/               # Include files
-```
 
 ## Setup
 
@@ -46,39 +27,44 @@ mo-zamani.github.io/
 git clone https://github.com/mo-zamani/mo-zamani.github.io.git
 ```
 
-2. Install dependencies:
+2. Navigate to the project directory:
 ```bash
-npm install
+cd mo-zamani.github.io
 ```
 
-3. Start development server:
-```bash
-npm run dev
-```
-
-4. Build for production:
-```bash
-npm run build
-```
+3. Open `index.html` in your browser or use a local development server.
 
 ## Development
 
-The website is built using modern web technologies for optimal performance and maintainability. Development is streamlined with Vite for fast hot module replacement and efficient builds.
+To run the website locally with live reload, you can use any local development server. For example, using Python:
 
-## Contributing
+```bash
+# Python 3.x
+python -m http.server 8000
+```
 
-Feel free to:
-- Fork this repository
-- Create feature branches
-- Submit pull requests
-- Report issues
+Then visit `http://localhost:8000` in your browser.
+
+## Structure
+
+```
+.
+├── index.html          # Main HTML file
+├── style.css          # Main stylesheet
+├── js/
+│   └── script.js      # JavaScript functionality
+├── images/            # Image assets
+└── README.md          # Project documentation
+```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+© 2024 Mohammad Zamani. All rights reserved.
 
 ## Contact
 
+- Email: mail.zamani.m@gmail.com
 - GitHub: [mo-zamani](https://github.com/mo-zamani)
-- Website: [mo-zamani.github.io](https://mo-zamani.github.io)
+- LinkedIn: [Mohammad Zamani](https://www.linkedin.com/in/mohammad-zamani-a1b310164/)
+- Google Scholar: [Mohammad Zamani](https://scholar.google.com/citations?user=S7RKrl8AAAAJ&hl=en)
  

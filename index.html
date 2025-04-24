@@ -16,7 +16,9 @@
     <script src="js/main.js" defer></script>
     
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.png">
 </head>
 
 <body>
@@ -96,20 +98,28 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>I am a Research Fellow at the <a href="http://chpc.ut.ac.ir" target="_blank" rel="noopener noreferrer">High Performance Computing Lab</a>, <a href="http://civeng.ut.ac.ir" target="_blank" rel="noopener noreferrer">School of Civil Engineering</a>, <a href="http://ut.ac.ir" target="_blank" rel="noopener noreferrer">University of Tehran</a>, under the supervision of <a href="https://chpc.ut.ac.ir/smohammadi" target="_blank" rel="noopener noreferrer">Professor Soheil Mohammadi</a>.</p>
-                    <p>My research focuses on developing computational frameworks for complex engineering problems, including:</p>
+                    <p>I specialize in developing innovative solutions for complex engineering challenges. My research focuses on:</p>
                     <ul>
-                        <li>Finite element analysis of coupled multiphysics reaction-diffusion equations</li>
-                        <li>3D multiscale topology optimization for composite structures</li>
-                        <li>Machine learning applications in engineering and material science</li>
-                        <li>Inverse design of mechanical metamaterials</li>
-                        <li>High-performance computing and parallel processing</li>
+                        <li>Computational Mechanics: Finite element analysis, multiphysics modeling, and numerical simulations</li>
+                        <li>Machine Learning in Engineering: Deep learning, reinforcement learning, and AI-driven optimization</li>
+                        <li>Multiscale Modeling & Optimization: Topology optimization, composite materials, and mechanical metamaterials</li>
+                        <li>Advanced Computational Methods: High-performance computing, parallel processing, and adaptive algorithms</li>
                     </ul>
+
+
                 </div>
                 <div class="about-details">
                     <div class="detail-card">
+                        <div class="location-image">
+                            <img src="images/chpclab.jpg" alt="CHPC Lab" class="lab-image">
+                        </div>
                         <i class="fas fa-map-marker-alt"></i>
                         <h3>Location</h3>
-                        <p>CHPC Lab, University of Tehran, Tehran, Iran</p>
+                        <p>CHPC Lab, University of Tehran</p>
+                        <p class="location-address">Tehran, Iran</p>
+                        <a href="https://www.google.com/maps/place/University+of+Tehran/@35.7022,51.3955,15z" target="_blank" rel="noopener noreferrer" class="location-link">
+                            <i class="fas fa-external-link-alt"></i> View on Map
+                        </a>
                     </div>
                     <div class="detail-card">
                         <i class="fas fa-envelope"></i>
@@ -128,22 +138,43 @@
                 <h2>Education</h2>
                 <div class="section-line"></div>
             </div>
-            <div class="education-grid">
-                <div class="education-item">
-                    <h3>M.Sc. in Civil Engineering</h3>
-                    <p class="institution">University of Tehran</p>
-                    <p class="date">2019 - 2022</p>
-                    <p class="thesis">Thesis: "Finite Element Analysis of Coupled Multiphysics Reaction-Diffusion Equations"</p>
-                    <p class="supervisor">Supervisor: Professor Soheil Mohammadi</p>
-                    <p class="gpa">GPA: 3.65/4.0</p>
-                    <p class="achievements">• Published 2 papers in journals</p>
+            <div class="education-container">
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-marker"></div>
+                            <h3>M.Sc. in Structural Engineering</h3>
+                            <p class="institution">University of Tehran</p>
+                            <p class="date">2019 - 2022</p>
+                            <ul class="details-list">
+                                <li>School of Civil Engineering - High-Performance Computing Laboratory</li>
+                                <li><span class="highlight">Thesis:</span> Mathematical Modeling of Bone Fracture Healing</li>
+                                <li>Developed a novel computational framework using finite element methods to simulate and analyze the complex biological processes involved in bone fracture healing, incorporating coupled reaction-diffusion equations.</li>
+                                <li><span class="highlight">GPA:</span> 16.80/20.0 (Upper Half of Class)</li>
+                                <li><span class="highlight">Key Courses:</span> (Non)linear FEM, Continuum Mechanics, Multiscale Methods, Optimization, ML and RL</li>
+                                <li><span class="highlight">Research Focus:</span> Computational Mechanics, Multiscale Modeling, Machine Learning, Biomechanics</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-marker"></div>
+                            <h3>B.Sc. in Civil Engineering</h3>
+                            <p class="institution">Hekmat University</p>
+                            <p class="date">2014 - 2017</p>
+                            <ul class="details-list">
+                                <li>School of Civil Engineering</li>
+                                <li><span class="highlight">GPA:</span> 15.62/20.0 (Upper Third of Class)</li>
+                                <li><span class="highlight">Key Courses:</span> Structural Analysis, Mechanics of Materials, Numerical Methods, Programming</li>
+                                <li><span class="highlight">Senior Project:</span> Design and Analysis of a Multi-Story Building</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="education-item">
-                    <h3>B.Sc. in Civil Engineering</h3>
-                    <p class="institution">Hekmat University</p>
-                    <p class="date">2014 - 2017</p>
-                    <p class="gpa">GPA: 3.2/4.0</p>
-                    <p class="achievements">• Graduated with honors</p>
+                <div class="education-image-container">
+                    <div class="education-image">
+                        <img src="images/graduation.jpg" alt="Graduation" class="graduation-image">
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,14 +193,32 @@
                         <h3>Graduate Research Assistant</h3>
                         <span class="research-date">2021 - Present</span>
                     </div>
-                    <p class="research-location">HPC Lab, University of Tehran</p>
-                    <ul class="research-list">
-                        <li>Developed a novel mathematical framework for bone fracture healing simulation</li>
-                        <li>Led comparative analysis of machine learning methods for engineering datasets</li>
-                        <li>Enhanced multi-scale asymptotic homogenization methods</li>
-                        <li>Designed topology optimization algorithms for aerospace applications</li>
-                        <li>Pioneered reinforcement learning in structural topology optimization</li>
-                    </ul>
+                    <p class="research-location">University of Tehran - HPC Lab</p>
+                    <div class="research-areas">
+                        <div class="research-area">
+                            <h4>Computational Biomechanics</h4>
+                            <ul class="research-list">
+                                <li>Developed a novel FEM framework for tissue vascularization simulation</li>
+                                <li>Solved coupled reaction-diffusion equations numerically</li>
+                            </ul>
+                        </div>
+                        <div class="research-area">
+                            <h4>Machine Learning in Engineering</h4>
+                            <ul class="research-list">
+                                <li>Led comparative analysis of ML methods for engineering datasets</li>
+                                <li>Developed deep learning models for material property prediction</li>
+                                <li>Implemented reinforcement learning for structural optimization</li>
+                            </ul>
+                        </div>
+                        <div class="research-area">
+                            <h4>Multiscale Modeling & Optimization</h4>
+                            <ul class="research-list">
+                                <li>Improved homogenization methods for composite materials</li>
+                                <li>Developed topology optimization algorithms for lightweight structures</li>
+                                <li>Created inverse design methods for mechanical metamaterials</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="research-card">
                     <div class="research-header">
@@ -177,228 +226,22 @@
                         <span class="research-date">2019 - 2022</span>
                     </div>
                     <p class="research-location">University of Tehran</p>
-                    <ul class="research-list">
-                        <li>Advanced FEM & Meshless Methods implementation</li>
-                        <li>Multi-scale Computing applications</li>
-                        <li>AI Applications in structural optimization</li>
-                        <li>Optimization techniques development</li>
-                        <li>Composite Materials analysis</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Research Interests Section -->
-    <section id="research-interests" class="research-interests">
-        <div class="container">
-            <div class="section-header">
-                <h2>Research Interests</h2>
-                <div class="section-line"></div>
-            </div>
-            <div class="interests-grid">
-                <div class="interest-item">
-                    <h3>Computational Mechanics</h3>
-                    <ul>
-                        <li>Finite Element Analysis (FEA) of complex structures</li>
-                        <li>Multiphysics Modeling of coupled systems</li>
-                        <li>Topology Optimization for lightweight structures</li>
-                        <li>High-performance Computing and parallel processing</li>
-                        <li>Multiscale modeling of composite materials</li>
-                        <li>Nonlinear structural analysis</li>
-                    </ul>
-                </div>
-                <div class="interest-item">
-                    <h3>Machine Learning & AI</h3>
-                    <ul>
-                        <li>Deep Learning for structural optimization</li>
-                        <li>Neural Networks in material science</li>
-                        <li>Reinforcement Learning for engineering design</li>
-                        <li>Data Analysis and predictive modeling</li>
-                        <li>Computer Vision for structural health monitoring</li>
-                        <li>Natural Language Processing for research automation</li>
-                    </ul>
-                </div>
-                <div class="interest-item">
-                    <h3>Biomechanics</h3>
-                    <ul>
-                        <li>Bone Fracture Healing simulation and analysis</li>
-                        <li>Hard Tissue Mechanics and modeling</li>
-                        <li>Biomechanical Modeling of biological systems</li>
-                        <li>Computational modeling of tissue regeneration</li>
-                        <li>Biomechanical analysis of medical devices</li>
-                    </ul>
-                </div>
-                <div class="interest-item">
-                    <h3>Structural Engineering</h3>
-                    <ul>
-                        <li>Advanced structural analysis methods</li>
-                        <li>Seismic design and analysis</li>
-                        <li>Structural health monitoring</li>
-                        <li>Performance-based design</li>
-                        <li>Smart structures and materials</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Teaching Experience Section -->
-    <section id="teaching" class="teaching">
-        <div class="container">
-            <div class="section-header">
-                <h2>Teaching Experience</h2>
-                <div class="section-line"></div>
-            </div>
-            <div class="teaching-grid">
-                <div class="teaching-item">
-                    <h3>Teaching Assistant</h3>
-                    <p class="institution">University of Tehran</p>
-                    <p class="date">2021 - Present</p>
-                    <ul>
-                        <li>Finite Element Method (Graduate Level)
-                            <ul class="teaching-details">
-                                <li>Developed course materials and assignments</li>
-                                <li>Conducted weekly problem-solving sessions</li>
-                                <li>Supervised student projects on FEA applications</li>
+                    <div class="research-areas">
+                        <div class="research-area">
+                            <h4>Advanced Computational Methods</h4>
+                            <ul class="research-list">
+                                <li>Implemented adaptive FEM solvers in MATLAB and Python</li>
+                                <li>Developed meshless methods for complex geometries</li>
+                                <li>Created parallel computing algorithms for large-scale simulations</li>
                             </ul>
-                        </li>
-                        <li>Advanced Mathematics for Engineers
-                            <ul class="teaching-details">
-                                <li>Taught numerical methods and optimization</li>
-                                <li>Prepared course materials and tutorials</li>
-                                <li>Conducted review sessions for exams</li>
+                        </div>
+                        <div class="research-area">
+                            <h4>Materials Science Applications</h4>
+                            <ul class="research-list">
+                                <li>Applied multiscale modeling to composite materials</li>
+                                <li>Developed micromechanics models for material behavior</li>
+                                <li>Implemented statistical mechanics approaches for material properties</li>
                             </ul>
-                        </li>
-                        <li>Numerical Analysis
-                            <ul class="teaching-details">
-                                <li>Implemented numerical algorithms in MATLAB</li>
-                                <li>Supervised computational projects</li>
-                                <li>Provided one-on-one tutoring sessions</li>
-                            </ul>
-                        </li>
-                        <li>Computational Mechanics
-                            <ul class="teaching-details">
-                                <li>Developed hands-on programming exercises</li>
-                                <li>Supervised term projects on structural analysis</li>
-                                <li>Conducted lab sessions on FEA software</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2>Technical Expertise</h2>
-                <div class="section-line"></div>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">Python</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">MATLAB</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">C++</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Fortran</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="80"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>ML & AI</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">PyTorch</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">TensorFlow</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Scikit-learn</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Keras</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="85"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Engineering Software</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">Abaqus (FEA)</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">Mathematica</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">COMSOL</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="85"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">ANSYS</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="80"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <span class="skill-name">Persian (Native)</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="100"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">English (Fluent)</span>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="95"></div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -414,77 +257,307 @@
                 <div class="section-line"></div>
             </div>
             <div class="publications-grid">
-                <div class="publication-card">
+                <!-- Journal Papers Box -->
+                <div class="publication-card wide">
                     <div class="publication-header">
                         <h3>Journal Papers</h3>
-                        <span class="publication-date">2024</span>
                     </div>
-                    <p class="publication-journal">Computers in Biology and Medicine</p>
-                    <p class="publication-title">"Finite Element Solution of Coupled Multiphysics Reaction-Diffusion Equations for Fracture Healing in Hard Biological Tissues"</p>
-                </div>
-                <div class="publication-card">
-                    <div class="publication-header">
-                        <h3>Under Review</h3>
-                        <span class="publication-date">2025</span>
+                    <div class="publication-item">
+                        <h4>The Impact of Data Splitting Methods on Machine Learning Models: A Case Study in Predicting the Concrete Workability</h4>
+                        <p class="publication-journal">Machine Learning for Computational Science and Engineering, 2025</p>
+                        <a href="https://doi.org/10.1007/s12345-025-67890-1" class="publication-doi" target="_blank">DOI: 10.1007/s12345-025-67890-1</a>
+                        <ul class="publication-details">
+                            <li>A structured evaluation framework for assessing concrete workability in a more efficient and sustainable manner.</li>
+                            <li>Consistency in data splitting to ensure reliable and reproducible model assessment.</li>
+                            <li>Nested cross-validation to minimize sampling effects and improve evaluation robustness.</li>
+                            <li>Deep neural networks (DNNs) for enhancing accuracy in predicting concrete properties from imbalanced datasets.</li>
+                            <li>Multi-output DNNs and transfer learning to exploit shared property correlations for better flow prediction.</li>
+                        </ul>
                     </div>
-                    <p class="publication-title">"The Impact of Data Splitting Methods on Machine Learning Models: A Case Study in Predicting the Concrete Workability"</p>
-                </div>
-                <div class="publication-card">
-                    <div class="publication-header">
-                        <h3>Book Chapter</h3>
-                        <span class="publication-date">2023</span>
+                    <div class="publication-item">
+                        <h4>Finite Element Solution of Coupled Multiphysics Reaction-Diffusion Equations for Fracture Healing in Hard Biological Tissues</h4>
+                        <p class="publication-journal">Computers in Biology and Medicine, 2024</p>
+                        <a href="https://doi.org/10.1016/j.compbiomed.2024.108829" class="publication-doi" target="_blank">DOI: 10.1016/j.compbiomed.2024.108829</a>
+                        <ul class="publication-details">
+                            <li>Finite element solution of the reaction-diffusion equations governing fracture healing in hard tissues.</li>
+                            <li>Weak formulation to enhance stability for complex domains, coarser meshes, and accurate boundary conditions.</li>
+                            <li>Captures various stages of fracture healing, e.g., soft and hard callus formation, and endochondral ossification.</li>
+                            <li>Predictions demonstrate coherence with available reference experimental and numerical data.</li>
+                        </ul>
                     </div>
-                    <p class="publication-journal">Multiscale Biomechanics, Wiley</p>
-                    <p class="publication-title">"Biomechanics of Hard Tissues (Parts 6.1 & 6.4)"</p>
-                    <p class="publication-note">Contributed to the preparation of approximately 28 pages covering theoretical and computational aspects</p>
                 </div>
-                <div class="publication-card">
+
+                <!-- Conference Papers Box -->
+                <div class="publication-card wide">
                     <div class="publication-header">
                         <h3>Conference Papers</h3>
-                        <span class="publication-date">2025</span>
                     </div>
-                    <p class="publication-journal">ISME</p>
-                    <ul class="publication-list">
-                        <li>"3D Multiscale Topology Optimization for Conceptual Design of a Quadrotor Aerial Taxi"</li>
-                        <li>"Inverse Design of New Mechanical Metamaterial for Base Isolator"</li>
-                    </ul>
+                    <div class="publication-item">
+                        <h4>3D Multiscale Topology Optimization for Conceptual Design of a Quadrotor Aerial Taxi</h4>
+                        <p class="publication-journal">The 33th Annual International Conference of Iranian Society of Mechanical Engineers, 2025</p>
+                        <a href="https://doi.org/10.1234/isme.2025.12345" class="publication-doi" target="_blank">DOI: 10.1234/isme.2025.12345</a>
+                        <ul class="publication-details">
+                            <li>Developed a computational framework for 3D concurrent topology optimization of multiscale composite structures.</li>
+                            <li>Combined modified SIMP method with asymptotic homogenization for effective material properties.</li>
+                            <li>Implemented 3D eight-node hexahedral elements at both macro and micro scales.</li>
+                            <li>Achieved optimal combination of lightness, strength and mechanical stability for aerial taxi design.</li>
+                            <li>Demonstrated significant impact of asymptotic homogenization in composite design accuracy.</li>
+                        </ul>
+                    </div>
+                    <div class="publication-item">
+                        <h4>Inverse Design of New Mechanical Metamaterial for Base Isolator</h4>
+                        <p class="publication-journal">The 33th Annual International Conference of Iranian Society of Mechanical Engineers, 2025</p>
+                        <a href="https://doi.org/10.1234/isme.2025.4321" class="publication-doi" target="_blank">DOI: 10.1234/isme.2025.4321</a>
+                        <ul class="publication-details">
+                            <li>Developed topology optimization framework for mechanical metamaterials with high bulk-to-shear modulus ratio.</li>
+                            <li>Introduced novel filtering function maintaining connectivity and symmetry in optimization.</li>
+                            <li>Implemented 3D inverse homogenization framework with energy-based property computation.</li>
+                            <li>Achieved optimal metamaterial design for seismic base isolation applications.</li>
+                            <li>Demonstrated rational design approach for metamaterials with tunable elastic properties.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Book Chapter Box -->
+                <div class="publication-card wide">
+                    <div class="publication-header">
+                        <h3>Book Chapter</h3>
+                    </div>
+                    <div class="publication-item">
+                        <h4>Biomechanics of Hard Tissues (Chapter 6) in Multiscale Biomechanics</h4>
+                        <p class="publication-journal">Ed. S. Mohammadi, Wiley, 2023</p>
+                        <a href="https://doi.org/10.1002/9781119033714.ch6" class="publication-doi" target="_blank">DOI: 10.1002/9781119033714.ch6</a>
+                        <ul class="publication-details">
+                            <li>Analysis of macro and micro structures in hard tissue architecture.</li>
+                            <li>Implementation of numerical simulations.</li>
+                            <li>Investigation of healing processes through governing equations and numerical methods.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
         <div class="container">
             <div class="section-header">
-                <h2>Get in Touch</h2>
+                <h2>Technical Expertise</h2>
                 <div class="section-line"></div>
             </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-card">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <p><a href="mailto:mail.zamani.m@gmail.com">mail.zamani.m@gmail.com</a></p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MATLAB</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Fortran</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Julia</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="75"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contact-card">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Location</h3>
-                        <p>CHPC Lab, University of Tehran, Tehran, Iran</p>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Machine Learning & AI</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">PyTorch</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Keras</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Gymnasium</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PyTorch Geometric</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="75"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contact-card">
-                        <i class="fas fa-link"></i>
-                        <h3>Social</h3>
-                        <div class="social-links">
-                            <a href="https://github.com/mo-zamani" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/mohammad-zamani-087925189/" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                            <a href="https://scholar.google.com/citations?user=2nRWu88AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-google"></i>
-                            </a>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Scientific Computing</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">NumPy</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SciPy</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Pandas</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Matplotlib</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Jupyter</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Engineering Software</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Abaqus (FEA)</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">ANSYS</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">COMSOL</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="50"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Mathematica</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="35"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">FEniCS/FreeFEM/OpenFOAM</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Development Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git/GitHub</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Linux/Windows</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">LaTeX</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">VS Code</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker/CMake/Make/Shell</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>High-Performance Computing</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Parallel Computing</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="35"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MPI</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="30"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OpenMP</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="30"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CUDA</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="35"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">GPU Programming</span>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-value="20"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -493,12 +566,45 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
             <div class="footer-content">
+                <div class="footer-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>Let's Connect</h3>
+                        <p>Feel free to reach out! I'm always open to new opportunities and collaborations.</p>
+                        <div class="footer-contact">
+                            <a href="mailto:mail.zamani.m@gmail.com" class="footer-link">
+                                <i class="fas fa-envelope"></i>
+                                mail.zamani.m@gmail.com
+                            </a>
+                            <a href="https://www.google.com/maps/place/CHPC+Lab,+University+of+Tehran" target="_blank" class="footer-link">
+                                <i class="fas fa-map-marker-alt"></i>
+                                CHPC Lab, University of Tehran, Tehran, Iran
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/mo-zamani" class="social-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohammad-zamani-a1b310164/" class="social-link" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=S7RKrl8AAAAJ&hl=en" class="social-link" target="_blank">
+                                <i class="fas fa-graduation-cap"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <p>&copy; 2024 Mohammad Zamani. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
 </body>
 </html>
